@@ -48,7 +48,7 @@
 
 .home {
     display: flex;
-    background-image: url('./assets/portfoliobackground.jpg');
+    background-image: url('./portfoliobackground.jpg');
     height: 100vh;
     color: rgb(255, 255, 255);
 }
