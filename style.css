@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    background: rgb(0, 0, 0);
+}
+
+.navbar .logo a {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .logo a span {
+    color: #00a3e5 ;
+}
+
+.navbar .menu li a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 25px;
+    transition: color 1s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #00a3e5;
+}
+
+
+.home {
+    display: flex;
+    background-image: url('./assets/portfoliobackground.jpg');
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .texto1 {
+    font-size: 25px;
+}
+
+.home .home-content .texto2 {
+    font-size: 75px;
+    font-weight: 600;
+}
+.home .home-content .texto3 {
+font-size: 40px;
+margin: 5px 0;
+}
+
+
+.Sobremim {
+    font-size: 75px;
+    font-weight: 600;
+    margin: auto 0 auto 40px;
+    padding-left: 45px;
+}
+
+.Sobretexto {
+    margin: auto 0 auto 40px;
+    padding-left: 46px;
+    font-size: 25px;
+}
+
+.Contato {
+    font-size: 75px;
+    font-weight: 600;
+    padding-left: 45px;
+    margin: auto 0 auto 40px;
+    padding-top: 200px;
+}
+
+input {
+    margin-left: 90px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Projetos {
+    font-size: 75px;
+    font-weight: 600;
+    padding-left: 45px;
+    margin: auto 0 auto 40px;
+    padding-top: 200px;
+}
+
+a > img {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.father {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+button {
+    padding: 1rem;
+    background-color: #ffffff;
+    font-size: 1.125rem;
+    border: 1px solid #000000;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-left: 90px;
+    margin-top: 25px;
+}
